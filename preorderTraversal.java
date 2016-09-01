@@ -1,11 +1,11 @@
 public class Solution {
 	//前序遍历-递归
 	public void preorderTraversal(TreeNode root) {
-		System.out.print(root.val+" ");
-		if (root.left != null) //要进行非空判断
+		if (root != null) {  //要进行非空判断
+			System.out.print(root.val+" ");
 			preorderTraversal(root.left);
-		if (root.right != null)
 			preorderTraversal(root.right);
+		}
 	}
 	//前序遍历-非递归
 	public ArrayList<Integer> preorderTraversal2(TreeNode root) {
