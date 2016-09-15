@@ -26,7 +26,7 @@ public class Main {
 	public static void main(String[] args) {
 		Main m = new Main();
 		String A = "ABC";
-		String B = "ACEFGBC";
+		String B = "ACEFGBCF";
 		System.out.println(m.longestCommonSubsequence(A, B));
 	}
 }
